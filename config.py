@@ -7,28 +7,28 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 11638149
+API_HASH = "7fdb30860c464e73d3d401b01f668c25"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7fdb30860c464e73d3d401b01f668c25"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://mongouser:shivammongo@cluster.8dvkd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002274484430
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7113865066
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("alice")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-ecc3df77-2524-4520-b2f5-a5efc5065145")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -39,16 +39,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/gitchey"
+SUPPORT_GROUP = "https://t.me/glitchifys"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("5d7832796150465b940d7dac35fa1175", None)
+SPOTIFY_CLIENT_SECRET = getenv("13bcb939f8a040d2995be000cded5292", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQG6OwEAGw_g7f4pAmgLhaf5PJkoM5dIkUO52Iua4ZDMOwRkR69O-UNJVxfoTav5v_n85iH5kDMQ6vBlG0Rgt5gVK7sSzju-dXJ4mlg_pVrMDEdc_gmqsU09LDcVbYv1xQ6DE6j8kHngLm1-Zma-J2o8Oqd9UJa2lRQWnkyUI6B6GrkTrb0DIE_RW1B7HY7Lr2He7QjuB7sMSajHAGGFmbkVJOGJN3kZwEPTgY4DE5nB-cA-E4k1sBvXaP4ZuvHUWti9tPUsrW2aijBnfseVRdNqTjzPxvLLwV8R0wwOlqzyBTBZiIjgR4UOEPtMXMW14orJ_69niKqPquxFH8lzZPIrnaHmNQAAAAGoBPdqAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
